@@ -1,0 +1,42 @@
+Flowharts : Diagrams to represent solution of problems
+
+Start / Exit - Oval 
+
+Input / Output - Parallogram
+
+Process - Rectangle
+
+Decision - Rhombus
+
+Arrow - Process flow
+
+Pseudo Code - writing the steps from the flow chart
+
+1. Sum of 2 numbers
+
+Start - input a & b - calculate sum - output sum - end 
+
+2. Simple Intrest
+
+Start - input P , R , T - calculate (P*R*T / 100) - output sum - end
+
+3. Max of 3 numbers
+
+a. Start
+b. input a, b & c
+c. is a > b (
+    is a > c (
+        print a
+    )
+    else (print c)
+)
+else (
+    is b > c (
+        print b
+    )
+    else (
+        print c
+    )
+)
+
+d. exit
