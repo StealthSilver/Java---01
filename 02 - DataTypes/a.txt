@@ -1,0 +1,91 @@
+to write any java code boilerplate is required 
+
+public class and main function
+
+public class 01 {
+    public static void main (string args[]){
+        
+    }
+}
+
+OUTPUT IN JAVA
+
+System.out.print("Hello World");
+
+Java is a compiled language
+Java is a static typed language
+
+VARIABLES
+
+a = 10 , b = 9 
+
+2 , 3 -> literals
+
+a, b, print , int , -> Identifiers 
+
+
+DATA TYPES
+
+Primitive 
+
+byte - 1 byte
+short - 2 bytes 
+char - 2 bytes 
+boolean - 1 byte 
+int - 4 bytes 
+long - 8 bytes 
+float - 4 bytes 
+double - 8 bytes 
+
+Non-Primitive
+
+String 
+Array
+Class 
+Object 
+Interface
+
+there are different types of data types because of the memory they use to store the data
+
+COMMENTS IN JAVA 
+
+// -> simgle line 
+/*  . . .  */ -> Multi line 
+
+INPUTS IN JAVA 
+
+next 
+nextLine
+nextInt
+nextByte
+nextFloat
+nextDouble
+nextBoolean
+nextShort
+nextLong
+
+TYPE CONVERSION (widening and implicit conversion)
+
+canversion can happen when :
+a. type compatible 
+b. Destination type > source type  -> lossy conversion 
+
+
+byte -> short -> int -> float -> long -> double
+
+TYPE CASTING (explicit conversion)
+
+int marks = (int)(99.99f)
+
+TYPE PROMOTION IN EXPRESSIONS
+
+1. Java automatically promotes each byte, short or char oprand to int when evaluating an expression.
+2. If one oprand is long, float or double the whole expression is promoted to long. float, or double respectively.
+
+HOW DOES THE JAVA CODE RUNS 
+
+JDK contains the development tools and the JRE (Java runtime enviornment)
+the JRE contains the JVM (java virtual machine) and the libraries
+
+COMPILATION [source code (.java) -> compiler -> byte code (.class)]  EXECUTION [-> JVM -> Native code] (the native code is different fore different OS)
+Java is a portable language but C++ is not a portable language
